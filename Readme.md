@@ -17,7 +17,7 @@ To run Luigi you will need
 * adjust the `src/config.json` file as needed
 * start Luigi with the following command: `node src/luigi.js`
 * connect the Simumatik simulation to the gateway and start the simulation
-* press the OK button to connect the coffee_machine to te mqtt broker
+* press the OK button to connect the coffee_machine to the mqtt broker
 * press OK again to activate Luigi
 * have fun :-)
 
