@@ -11,4 +11,4 @@ To run Luigi you will need
 
 ### Getting Started
 * start your mqtt broker
-* 
+* go to [https://apps.simumatik.com] and start the IOT Coffee Machine 
