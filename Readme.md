@@ -25,4 +25,5 @@ To run Luigi you will need
 * have fun :-)
 
 ### Video
-![youtube](https://imgyoutu.com/vi/xcjudPhLdfc/0.jpg)
+[![youtube](https://img.youtube.com/vi/xcjudPhLdfc/0.jpg)](https://youtu.be/xcjudPhLdfc)
+
