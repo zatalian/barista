@@ -5,7 +5,10 @@ This is my submission to the [Simumatik IoT Coffee Machine Challange](https://ac
 
 ### Prerequisites
 To run Luigi you will need
+* an account at simumatik.com + simumatik launcher installed
+* nodejs installed
+* an mqtt broker with anonymous login allowed
 
-
-###Getting Started
-
+### Getting Started
+* start your mqtt broker
+* 
