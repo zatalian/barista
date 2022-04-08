@@ -9,7 +9,7 @@ Luigi is a highly intelligent but completely useless IoT barista. Because he is 
 To run Luigi you will need
 * an account at [simumatik.com](https://simumatik.com/) + simumatik launcher installed
 * [nodejs](https://nodejs.org/) installed
-* an mqtt broker with anonymous login allowed
+* an mqtt broker with anonymous login
 
 
 ### Getting Started
