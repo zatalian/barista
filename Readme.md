@@ -9,6 +9,7 @@ To run Luigi you will need
 * nodejs installed
 * an mqtt broker with anonymous login allowed
 
+
 ### Getting Started
 * start your mqtt broker
 * go to [apps.simumatik.com](https://apps.simumatik.com) and start the IOT Coffee Machine. Point the coffee machine to your mqtt broker.
@@ -21,4 +22,5 @@ To run Luigi you will need
 * press OK again to activate Luigi
 * have fun :-)
 
+### Video
 
