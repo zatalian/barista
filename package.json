@@ -1,0 +1,15 @@
+{
+  "name": "barista",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/luigi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mqtt": "^4.3.7",
+    "uuid": "^8.3.2"
+  }
+}

@@ -1,0 +1,5 @@
+{
+   "mqttBroker": "mqtt://127.0.0.1:1883",
+   "mqttTopic":"coffee_mac/",
+   "conversation": "/../conversation.json" 
+}

@@ -1,0 +1,153 @@
+[
+    {
+        "description": "stuck",
+        "id": -1,
+        "message":
+        [
+            "BEEP, BEEP, ...  **ERROR**",
+            "",
+            "Oh boy, I seem to be stuck. This has never happened before...",
+            "Oh well, let's try switching me OFF and ON again, shall we?",
+            "Turning myself off now... Can you please turn me ON again in a few seconds?"
+        ],
+        "actions": [0]
+    },
+    {
+        "description": "welcome message",
+        "id": 0,
+        "message" : 
+        [
+            "Hi! I'm Luigi, your personal barista for today.",
+            "Although I'm a very intelligent machine designed with full voice recognision capablilities, the dumb engineer who designed my hardware only provided me these 3 simple buttons and this 1970's text display.",
+            "So we will have to communicate with Yes/No questions..."
+        ],
+        "next": [1],
+        "interrupt": [0],
+        "kill":true
+    },
+    {
+        "description": "button assignment 1",
+        "id": 1,
+        "message" : 
+        [
+            "Lets assign NO to the minus button and YES to the plus button. Agreed?"
+        ],
+        "interrupt": [1],
+        "question": [4, 2]
+    },
+    {
+        "description": "disagree normal yes/no assignment",
+        "id": 2,
+        "message" : 
+        [
+            "Oh sorry. You're a lefty. I missed that.",
+            "So you want YES on the left and NO on the right? Exact?"
+        ],
+        "interrupt": [2],
+        "kill": true,
+        "actions": [5],
+        "question": [4, 3]
+
+    },
+    {
+        "description": "disagree with both normal and left yes/no assignment",
+        "id": 3,
+        "message" : 
+        [
+            "You're a funny one, aren't you?",
+            "Let me put NO on the left and YES on the right for you."
+        ],
+        "interrupt": [3],
+        "kill": true,
+        "actions": [5],
+        "next": [4]
+    },
+    {
+        "description": "agreed to button assignment",
+        "id": 4,
+        "message" : 
+        [
+            "What can I get you today?",
+            "Can I interrest you in a nice cup of coffee?"
+        ],
+        "interrupt": [4],
+        "kill": true,
+        "question": [5, 6]
+    },
+    {
+        "description": "agreed to coffee",
+        "id": 5,
+        "message" : 
+        [
+            "This is embarrassing... I was hoping for a different answer.",
+            "I'm filled with the most horrible powder coffee you can imagine. It is almost as bad as the coffee served at HOGENT.BE",
+            "I can't possible serve you that."
+        ],
+        "interrupt": [5],
+        "kill": true,
+        "next": [6]
+    },
+    {
+        "description": "milk instead?",
+        "id": 6,
+        "message" : 
+        [
+            "Can I interrest you in a nice glass of hot milk instead?"
+        ],
+        "interrupt": [6],
+        "kill": true,
+        "question": [7, 8]
+    },
+    {
+        "description": "patience message",
+        "id": 99,
+        "message" : 
+        [
+            "Please, be patient.",
+            "Like it or not, but we're in this together, and our only means of communicating is through these yes/no questions.",
+            "Let's resume where we left off..."
+        ],
+        "kill": true
+    },
+    {
+        "description": "kill message",
+        "id": 100,
+        "message" : 
+        [
+            "Did you just try to kill me? How rude. All i did was try to help you.",
+            "Do you have any idea how lonely it is in here?",
+            "Nevermind. I get it. I'm not wanted.",
+            "At least, let me have my dignity. I'll shut myself down.",
+            "Goodbye."
+        ],
+        "actions": [0]
+    },
+    {
+        "description": "no answer",
+        "id": 101,
+        "message" : 
+        [
+            "Hello?",
+            "Hello???",
+            "",
+            "They seem to have left... my intelligence must have put them off.",
+            "Oh well, let me shut myself down and wait for someone less easily intimidated..."
+        ],
+        "interrupt": [102],
+        "actions": [0],
+        "kill": true
+    },
+    {
+        "description": "delayed answer",
+        "id": 102,
+        "message" : 
+        [
+            "Oh, there you are.",
+            "I thought you left.",
+            "Let's resume our conversation. Where where we?",
+            " Rats, i forgot... Oh well, we can just as well start over.",
+            ""
+        ],
+        "next": [0]
+    }
+]
