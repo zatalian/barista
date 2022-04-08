@@ -1,5 +1,5 @@
 // config file
-var config = require(__dirname + "/../config.json");
+var config = require(__dirname + "/../data/config.json");
 
 // mqtt client
 var mqtt = require('mqtt');
