@@ -1,13 +1,17 @@
 # Luigi - an Intelligent Internet of Things (IIoT) barista
 
 ### Intro
-This is my submission to the [Simumatik IoT Coffee Machine Challange](https://academy.simumatik.com/courses/iot-coffee-machine/). Luigi is a highly intelligent but completely useless IoT barista.
+This is my submission to the [Simumatik IoT Coffee Machine Challange](https://academy.simumatik.com/courses/iot-coffee-machine/). 
+
+Luigi is a highly intelligent but completely useless IoT barista. Because the coffee machine is only fitted with buttons and an old text display, Luigi has to communicate with yes/no questions. Can you get him to pour you a coffee?
+
 
 ### Prerequisites
 To run Luigi you will need
 * an account at simumatik.com + simumatik launcher installed
 * nodejs installed
 * an mqtt broker with anonymous login allowed
+
 
 ### Getting Started
 * start your mqtt broker
