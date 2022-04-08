@@ -14,7 +14,7 @@ To run Luigi you will need
 * go to [apps.simumatik.com](https://apps.simumatik.com) and start the IOT Coffee Machine. Point the coffee machine to your mqtt broker.
 * download this repository
 * open a terminal, go to the folder where you downloaded this repository and run the follwing command: `npm -a update`
-* point the entry mqttBroker in the config file to your mqtt broker
+* adjust the `src/config.json` file as needed
 * start Luigi with the following command: `node src/luigi.js`
 * connect the Simumatik simulation to the gateway and start the simulation
 * press the OK button to connect the coffee_machine to te mqtt broker
